@@ -36,3 +36,12 @@
 *~
 
 
+# Visual Studio temp files
+*.sdf
+*.opensdf
+*.user
+*.suo
+GeneratedFiles
+
+
+
