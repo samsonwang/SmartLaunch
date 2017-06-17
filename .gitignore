@@ -41,7 +41,13 @@
 *.opensdf
 *.user
 *.suo
-GeneratedFiles
+[D|d]ebug
+[R|r]elease
 
+
+# Qt GeratedFiles
+GeneratedFiles
+ui_*.h
+moc_*.cpp
 
 
