@@ -55,3 +55,5 @@ moc_*.cpp
 *.bak
 
 
+*.db
+*.opendb

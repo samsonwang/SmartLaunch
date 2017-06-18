@@ -23,6 +23,11 @@
       <Extensions>moc;h;cpp</Extensions>
       <SourceControlFiles>False</SourceControlFiles>
     </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{5153b2b2-163d-4fcb-b3b7-90fe0a1e8ed1}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -31,11 +36,11 @@
     <ClCompile Include="QLaunch.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="GeneratedFiles\moc_QLaunch.cpp">
-      <Filter>Generated Files</Filter>
-    </ClCompile>
     <ClCompile Include="GeneratedFiles\qrc_QLaunch.cpp">
       <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_QLaunch.cpp">
+      <Filter>Generated Files\Debug</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
