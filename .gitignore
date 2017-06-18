@@ -45,9 +45,13 @@
 [R|r]elease
 
 
-# Qt GeratedFiles
+# Qt generated files
 GeneratedFiles
 ui_*.h
 moc_*.cpp
+
+
+# Other temp files
+*.bak
 
 
