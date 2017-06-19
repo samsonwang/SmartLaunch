@@ -79,6 +79,8 @@
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="SmartLaunch.rc" />
+    <ResourceCompile Include="SmartLaunch.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
   </ItemGroup>
 </Project>

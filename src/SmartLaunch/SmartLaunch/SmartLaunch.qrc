@@ -1,4 +1,5 @@
 <RCC>
-    <qresource prefix="SmartLaunch">
+    <qresource prefix="/SmartLaunch">
+        <file>SmartLaunch.ico</file>
     </qresource>
 </RCC>
