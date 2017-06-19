@@ -43,6 +43,9 @@
 *.suo
 [D|d]ebug
 [R|r]elease
+ipch
+*.db
+*.opendb
 
 
 # Qt generated files
@@ -55,5 +58,4 @@ moc_*.cpp
 *.bak
 
 
-*.db
-*.opendb
+
