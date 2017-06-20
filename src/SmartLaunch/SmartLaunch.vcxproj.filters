@@ -52,11 +52,11 @@
     <ClCompile Include="GeneratedFiles\Release\moc_SmartLaunch.cpp">
       <Filter>Generated Files\Release</Filter>
     </ClCompile>
-    <ClCompile Include="GeneratedFiles\qrc_SmartLaunch.cpp">
-      <Filter>Generated Files</Filter>
-    </ClCompile>
     <ClCompile Include="SmartLaunchPch.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_SmartLaunch.cpp">
+      <Filter>Generated Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -74,12 +74,12 @@
     <CustomBuild Include="SmartLaunch.ui">
       <Filter>Form Files</Filter>
     </CustomBuild>
-    <CustomBuild Include="SmartLaunch.qrc">
+    <CustomBuild Include="Resources\SmartLaunch.qrc">
       <Filter>Resource Files</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="SmartLaunch.rc">
+    <ResourceCompile Include="Resources\SmartLaunch.rc">
       <Filter>Resource Files</Filter>
     </ResourceCompile>
   </ItemGroup>
