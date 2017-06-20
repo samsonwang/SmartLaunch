@@ -1,5 +1,5 @@
 /*
-SmartLaunch: multi-function launcher.
+SmartLaunch: multi-function app launcher.
 Copyright (C) 2017 Samson Wang
 
 This program is free software: you can redistribute it and/or modify
