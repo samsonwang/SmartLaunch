@@ -46,7 +46,7 @@
 ipch
 *.db
 *.opendb
-
+*.aps
 
 # Qt generated files
 GeneratedFiles
