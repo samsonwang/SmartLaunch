@@ -41,11 +41,13 @@
 *.opensdf
 *.user
 *.suo
-[D|d]ebug
-[R|r]elease
-ipch
 *.db
 *.opendb
+*.aps
+[D|d]ebug
+[R|r]elease
+[T|t]emp
+ipch
 
 
 # Qt generated files
