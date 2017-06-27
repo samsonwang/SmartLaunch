@@ -35,6 +35,8 @@
 # Emacs temp files
 *~
 
+# Visual Studio Code config files
+.vscode
 
 # Visual Studio temp files
 *.sdf
