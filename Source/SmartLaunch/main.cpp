@@ -23,8 +23,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 int main(int argc, char *argv[])
 {
-	QApplication a(argc, argv);
-	SmartLaunch w;
-	w.show();
-	return a.exec();
+	QApplication app(argc, argv);
+	SmartLaunch widget;
+	widget.show();
+	return app.exec();
 }

@@ -16,7 +16,8 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-#pragma once
+#ifndef SMARTLAUNCH_SMARTLAUNCH_SMARTLAUNCH_H
+#define SMARTLAUNCH_SMARTLAUNCH_SMARTLAUNCH_H
 
 #include <QtWidgets/QDialog>
 #include "ui_SmartLaunch.h"
@@ -25,8 +26,10 @@ class SmartLaunch : public QDialog
 {
   Q_OBJECT
 public:
-	SmartLaunch(QWidget *parent = Q_NULLPTR);
+	SmartLaunch(QWidget* pParent = Q_NULLPTR);
 
 private:
   Ui::SmartLaunchClass ui;
 };
+
+#endif // SMARTLAUNCH_SMARTLAUNCH_SMARTLAUNCH_H

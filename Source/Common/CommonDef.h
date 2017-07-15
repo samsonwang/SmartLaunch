@@ -16,11 +16,16 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-#ifndef SMARTLAUNCH_SMARTLAUNCH_SMARTLAUNCHPCH_H
-#define SMARTLAUNCH_SMARTLAUNCH_SMARTLAUNCHPCH_H
+#ifndef SMARTLAUNCH_COMMON_COMMONDEF_H
+#define SMARTLAUNCH_COMMON_COMMONDEF_H
 
-#include <QtCore>
-#include <QtGui>
-#include <QtWidgets>
+#include <QtCore/qglobal.h>
 
-#endif // SMARTLAUNCH_SMARTLAUNCH_SMARTLAUNCHPCH_H
+#if defined(SL_LIB)
+#  define SL_EXPORT Q_DECL_EXPORT
+#else
+#  define SL_EXPORT Q_DECL_IMPORT
+#endif // SL_LIB
+
+
+#endif // SMARTLAUNCH_COMMON_COMMONDEF_H

@@ -16,11 +16,36 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-#ifndef SMARTLAUNCH_SMARTLAUNCH_SMARTLAUNCHPCH_H
-#define SMARTLAUNCH_SMARTLAUNCH_SMARTLAUNCHPCH_H
+#include "Common/CommonDef.h"
 
-#include <QtCore>
-#include <QtGui>
-#include <QtWidgets>
+#include <QString>
 
-#endif // SMARTLAUNCH_SMARTLAUNCH_SMARTLAUNCHPCH_H
+#ifndef SMARTLAUNCH_UTILITIES_CATALOGITEM_H
+#define SMARTLAUNCH_UTILITIES_CATALOGITEM_H
+
+namespace smartlaunch
+{
+namespace utilities
+{
+
+class SL_EXPORT CatalogItem
+{
+public:  
+  QString name_;
+
+  QString fullPath_;
+
+public:
+  CatalogItem(const QString& name);
+  CatalogItem();
+
+
+
+};
+
+
+
+} // namespace utilities
+} // namespace smartlaunch
+
+#endif // SMARTLAUNCH_UTILITIES_CATALOGITEM_H
